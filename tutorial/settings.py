@@ -51,6 +51,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+REST_FRAMEWORK = {
+    'PAGE_SIZE': 10
+}
+
 ROOT_URLCONF = 'tutorial.urls'
 
 TEMPLATES = [
